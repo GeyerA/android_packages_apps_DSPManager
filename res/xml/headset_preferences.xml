@@ -17,8 +17,7 @@
             android:entryValues="@array/compression_modes_values" />
     </PreferenceCategory>
 
-    <PreferenceCategory android:title="@string/pref_bassboost_title"
-        android:key="dsp.bass">
+    <PreferenceCategory android:title="@string/pref_bassboost_title">
         <CheckBoxPreference
             android:disableDependentsState="false"
             android:key="dsp.bass.enable"
@@ -81,8 +80,7 @@
             android:key="dsp.headphone.mode" />
     </PreferenceCategory>
 
-    <PreferenceCategory android:title="@string/pref_headset_stereowide_title"
-        android:key="dsp.stereowide">
+    <PreferenceCategory android:title="@string/pref_headset_stereowide_title">
         <CheckBoxPreference
             android:key="dsp.stereowide.enable"
             android:disableDependentsState="false"
